@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no">
+    <title> Good Goal Apps</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Stylesheet/MainStyleSheet.css">
+    <link rel="icon" href="Images/favicon.png" type = "image/x-icon">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</head>
+<body class="bg-primary">
+    <div class="container col-10 col-lg-10 col-md col-sm ">
+        <div class="row">
+            <div class="mx-auto col-lg-12 col-md-6 text-white">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"> <i class="p-3 text-white fa fa-align-left fa-2x" aria-hidden="true"></i> </a>
+                    <a class="navbar-brand text-white" href="#"> <b>LOGO</b>  </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                        <i class="fa fa-align-justify fa-2x text-white" aria-hidden="true"></i>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <a class="p-3 "><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i> </a>
+                            <a class="p-3 "> <i class="fa fa-th fa-2x" aria-hidden="true"></i> </a>
+                            <a class="p-3"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i></a>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row ">
+
+            <div class="col-8">
+            </div>
+            <div class="text-white col-4">
+                <h2 style="font-size:3vw;" class="text-right"> TAKE IT EASY </h2>
+                <p style="font-size:2vw;" class="text-right">
+                    Start your success story with
+                    GOODGOAL, Subsidiary
+                    & Partners
+                </p>
+            </div>
+        </div>
+
+        <div class=" row">
+            <div class="mx-auto text-white  col-md-12">
+                <h2 style="font-size:3vw;" class="text-center">Think incredible than ever</h2>
+                <p style="font-size:2vw;" class="text-center">Its time to move with remarkable future technologies.</p>
+                <p class="text-center">
+                    <button id="buttonNext" class="btn btn-default btn-lg" href="#modal-start" data-toggle="modal">
+                        NEXT IS NOW
+                        <i class="fa fa-arrow-circle-right fa-lg" aria-hidden="true"></i>
+                    </button>
+                </p>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-8">
+            </div>
+            <div style="letter-spacing: 10px;" class="text-white text-center col-md-4">
+                <p> OVERVIEW </p>
+            </div>
+        </div>
+
+
+
+        <div class="row ">
+            <div id="hoverchange" class="text-center col-md-6">
+                <button id="buttonPlay" class="btn btn-default btn-lg text-white" href="#modal-start" data-toggle="modal" onclick="myFunction()">
+                    <i class="fa fa-play-circle text-white" aria-hidden="true"></i>
+                    TAP TO PLAY
+
+                </button>
+            </div>
+
+            <div class=" text-white text-center  col-md-2">
+                <h3> 2015 </h3>
+                <p> We Started </p>
+            </div>
+
+            <div class="text-white text-center  col-md-2">
+                <h3> 120+ </h3>
+                <p> Live Project  </p>
+            </div>
+            <div class="text-white text-center  col-md-2">
+                <h3> 2020 </h3>
+                <p> Smart Vission </p>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="col-lg-12 col-md-6 col-sm-6">
+                <div class="form-popup col-md-12  col-md-6 col-sm-6" id="myForm">
+                    <form action="/" class="form-container">
+                        <h3 class="text-center">Login</h3>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required="required">
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required="required">
+
+                        <button type="submit" class="btn btn-success">Login</button>
+                        <button type="button" class="btn btn-danger" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-12  text-center">
+                <!-- Footer -->
+                <footer class="page-footer font-small blue-grey lighten-5 text-white ">
+
+                    <div class="footer-copyright text-center text-black-50 py-3">
+                        <span class="text-white"> © 2019 Copyright: </span>
+
+                        <a class="dark-grey-text" href="/"> goodgoal.com</a>
+
+                        <span> <button id="LoginForm" class="open-button btn btn-info" onclick="openForm()"> Chat Me </button></span>
+                    </div>
+
+                   
+                </footer>
+                <!-- Footer -->
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="Scripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
